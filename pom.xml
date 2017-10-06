@@ -120,6 +120,7 @@
 			<artifactId>spring-boot-configuration-processor</artifactId>
 			<optional>true</optional>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-kubernetes</artifactId>
@@ -136,6 +137,37 @@
 			<artifactId>spring-cloud-kubernetes-ribbon</artifactId>
 			<version>0.2.0.RELEASE</version>
 		</dependency>
+		<!-- Pdf creator -->
+		<dependency>
+                  <groupId>com.itextpdf</groupId>
+                  <artifactId>kernel</artifactId>
+                  <version>7.0.2</version>
+                </dependency>
+                <dependency>
+                  <groupId>com.itextpdf</groupId>
+                  <artifactId>io</artifactId>
+                  <version>7.0.2</version>
+                </dependency>
+                <dependency>
+                  <groupId>com.itextpdf</groupId>
+                  <artifactId>layout</artifactId>
+                  <version>7.0.2</version>
+                </dependency>
+                <dependency>
+                  <groupId>com.itextpdf</groupId>
+                  <artifactId>forms</artifactId>
+                  <version>7.0.2</version>
+                </dependency>
+                <dependency>
+                  <groupId>com.itextpdf</groupId>
+                  <artifactId>pdfa</artifactId>
+                  <version>7.0.2</version>
+                </dependency>
+                <dependency>
+                  <groupId>com.itextpdf</groupId>
+                  <artifactId>pdftest</artifactId>
+                  <version>7.0.2</version>
+                </dependency>
 	</dependencies>
 
 	<build>
